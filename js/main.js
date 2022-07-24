@@ -16,7 +16,7 @@ $(document).ready(function() {
 			size : "lg",
 			// if the date has over 4 digits in days then add an extra [0-9] in the first field bellow
 			regexpMatchFormat: "([0-9][0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})",
-			regexpReplaceWith:  " <div class='count'> $1<div class='displayformat'>Days</div></div> <div class='count'> $2<div class='displayformat'>Hours</div></div> <div class='count'> $3<div class='displayformat'>Minutes</div></div> <div class='count'> $4<div class='displayformat'>Seconds</div></div>"
+			regexpReplaceWith:  " <div class='count'> $1<div class='displayformat'>Hari</div></div> <div class='count'> $2<div class='displayformat'>Jam</div></div> <div class='count'> $3<div class='displayformat'>Menit</div></div> <div class='count'> $4<div class='displayformat'>Detik</div></div>"
 			});
 	});
 	
